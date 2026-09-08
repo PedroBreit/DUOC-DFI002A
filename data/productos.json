@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Notebook Pro",
+        "categoria": "Notebooks",
+        "precio": 749990,
+        "descripcion": "Notebook de alto rendimiento para estudio, trabajo y desarrollo.",
+        "imagen": "img/cards/notebook-2.png"
+    },
+    {
+        "nombre": "Smartphone X",
+        "categoria": "Smartphones",
+        "precio": 399990,
+        "descripcion": "Smartphone moderno con excelente rendimiento y conectividad.",
+        "imagen": "img/cards/smartphone-2.png"
+    },
+    {
+        "nombre": "Mouse Gaming RGB",
+        "categoria": "Gaming",
+        "precio": 29990,
+        "descripcion": "Mouse gaming ergonómico con iluminación RGB y alta precisión.",
+        "imagen": "img/cards/mouse.png"
+    }
+]
