@@ -49,10 +49,6 @@ h3 {
     letter-spacing: 0.5px;
 }
 
-.navbar-brand span {
-    color: #3b82f6;
-}
-
 .navbar-brand:hover {
     color: #ffffff;
 }
@@ -61,7 +57,9 @@ h3 {
     color: #cbd5e1;
     font-weight: 500;
     margin-left: 18px;
+
     position: relative;
+
     transition: 0.3s;
 }
 
@@ -83,6 +81,7 @@ h3 {
     background: #3b82f6;
 
     transform: translateX(-50%);
+
     transition: width 0.3s;
 }
 
@@ -111,7 +110,7 @@ h3 {
 }
 
 
-/* Capa oscura sobre toda la fotografía */
+/* Capa oscura sobre la imagen */
 
 .carousel-item::after {
     content: "";
@@ -172,6 +171,11 @@ h3 {
     z-index: 3;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 3;
+}
+
 
 /* =========================================================
    BOTONES
@@ -211,25 +215,6 @@ h3 {
 
 
 /* =========================================================
-   ETIQUETAS DE SECCIONES
-========================================================= */
-
-.titulo-etiqueta {
-    display: inline-block;
-
-    color: #2563eb;
-
-    font-size: 0.75rem;
-
-    font-weight: 800;
-
-    letter-spacing: 3px;
-
-    margin-bottom: 10px;
-}
-
-
-/* =========================================================
    PRODUCTOS
 ========================================================= */
 
@@ -239,16 +224,12 @@ h3 {
     padding-top: 90px !important;
     padding-bottom: 100px !important;
 
-    background:
-        linear-gradient(
-            180deg,
-            #f8fafc 0%,
-            #eef4ff 100%
-        );
+    background: linear-gradient(
+        180deg,
+        #f8fafc 0%,
+        #eef4ff 100%
+    );
 }
-
-
-/* Mantiene el contenido centrado */
 
 #productos > * {
     max-width: 1116px;
@@ -264,12 +245,13 @@ h3 {
 
 #productos .text-muted {
     color: #64748b !important;
+
     font-size: 1.05rem;
 }
 
 
 /* =========================================================
-   PROMOCIÓN ESPECIAL - SEMANA 5
+   PROMOCIÓN ESPECIAL
 ========================================================= */
 
 .promo-notebook {
@@ -285,13 +267,12 @@ h3 {
 
     margin-bottom: 50px;
 
-    background:
-        linear-gradient(
-            135deg,
-            #fffdf4 0%,
-            #fff4c4 58%,
-            #ffe28a 100%
-        );
+    background: linear-gradient(
+        135deg,
+        #fffdf4 0%,
+        #fff4c4 58%,
+        #ffe28a 100%
+    );
 
     box-shadow:
         0 14px 35px
@@ -302,9 +283,6 @@ h3 {
         box-shadow 0.3s ease;
 }
 
-
-/* Efecto sutil al pasar sobre la promoción */
-
 .promo-notebook:hover {
     transform: translateY(-3px);
 
@@ -312,9 +290,6 @@ h3 {
         0 18px 42px
         rgba(15, 23, 42, 0.17);
 }
-
-
-/* Elemento decorativo superior */
 
 .promo-notebook::before {
     content: "";
@@ -333,9 +308,6 @@ h3 {
     right: -60px;
 }
 
-
-/* Elemento decorativo inferior */
-
 .promo-notebook::after {
     content: "";
 
@@ -353,16 +325,10 @@ h3 {
     left: -40px;
 }
 
-
-/* Contenido por encima de los elementos decorativos */
-
 .promo-contenido {
     position: relative;
     z-index: 1;
 }
-
-
-/* Etiqueta superior */
 
 .promo-etiqueta {
     display: inline-block;
@@ -373,12 +339,11 @@ h3 {
 
     border-radius: 50px;
 
-    background:
-        linear-gradient(
-            90deg,
-            #dc3545,
-            #ef4444
-        );
+    background: linear-gradient(
+        90deg,
+        #dc3545,
+        #ef4444
+    );
 
     color: #ffffff;
 
@@ -393,9 +358,6 @@ h3 {
         rgba(220, 53, 69, 0.20);
 }
 
-
-/* Título principal */
-
 .promo-titulo {
     margin-bottom: 24px;
 
@@ -408,9 +370,6 @@ h3 {
     line-height: 1.1;
 }
 
-
-/* Botón de promoción */
-
 .promo-boton {
     padding: 11px 24px;
 
@@ -418,12 +377,11 @@ h3 {
 
     border-radius: 9px;
 
-    background:
-        linear-gradient(
-            90deg,
-            #dc3545,
-            #ef4444
-        );
+    background: linear-gradient(
+        90deg,
+        #dc3545,
+        #ef4444
+    );
 
     color: #ffffff;
 
@@ -433,17 +391,15 @@ h3 {
 
     transition:
         transform 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease;
+        box-shadow 0.2s ease;
 }
 
 .promo-boton:hover {
-    background:
-        linear-gradient(
-            90deg,
-            #bb2d3b,
-            #dc2626
-        );
+    background: linear-gradient(
+        90deg,
+        #bb2d3b,
+        #dc2626
+    );
 
     transform: translateY(-2px);
 
@@ -451,9 +407,6 @@ h3 {
         0 8px 20px
         rgba(220, 53, 69, 0.30);
 }
-
-
-/* Bloque que aparece al hacer clic */
 
 .promo-descuento {
     display: inline-flex;
@@ -470,8 +423,7 @@ h3 {
 
     border-radius: 12px;
 
-    background:
-        rgba(255, 255, 255, 0.78);
+    background: rgba(255, 255, 255, 0.78);
 
     border:
         1px solid
@@ -482,9 +434,6 @@ h3 {
         rgba(15, 23, 42, 0.08);
 }
 
-
-/* Texto Hasta */
-
 .promo-hasta {
     color: #64748b;
 
@@ -492,9 +441,6 @@ h3 {
 
     font-weight: 500;
 }
-
-
-/* Porcentaje */
 
 .promo-porcentaje {
     color: #dc3545;
@@ -505,9 +451,6 @@ h3 {
 
     letter-spacing: 0.3px;
 }
-
-
-/* Animación del descuento */
 
 .promo-aparecer {
     animation:
@@ -521,15 +464,13 @@ h3 {
     from {
         opacity: 0;
 
-        transform:
-            translateY(-8px);
+        transform: translateY(-8px);
     }
 
     to {
         opacity: 1;
 
-        transform:
-            translateY(0);
+        transform: translateY(0);
     }
 
 }
@@ -560,9 +501,6 @@ h3 {
         border-color 0.3s ease;
 }
 
-
-/* Pequeña línea de color */
-
 .card::before {
     content: "";
 
@@ -576,13 +514,12 @@ h3 {
 
     z-index: 2;
 
-    background:
-        linear-gradient(
-            90deg,
-            #2563eb,
-            #7c3aed,
-            #22d3ee
-        );
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed,
+        #22d3ee
+    );
 }
 
 .card:hover {
@@ -602,8 +539,7 @@ h3 {
 
     object-fit: cover;
 
-    transition:
-        transform 0.4s;
+    transition: transform 0.4s;
 }
 
 .card:hover .producto-img {
@@ -632,7 +568,7 @@ h3 {
 
 
 /* =========================================================
-   PRODUCTOS DESTACADOS - FETCH API
+   PRODUCTOS DESTACADOS
 ========================================================= */
 
 #destacados {
@@ -642,11 +578,8 @@ h3 {
 
 #destacados h2 {
     font-size: 2.5rem;
-    font-weight: 800;
-}
 
-#destacados .card {
-    min-height: 250px;
+    font-weight: 800;
 }
 
 
@@ -655,20 +588,16 @@ h3 {
 ========================================================= */
 
 .seccion-nosotros {
-    background:
-        linear-gradient(
-            135deg,
-            #0b1120,
-            #172554
-        );
+    background: linear-gradient(
+        135deg,
+        #0b1120,
+        #172554
+    );
 
     position: relative;
 
     overflow: hidden;
 }
-
-
-/* Decoración de fondo */
 
 .seccion-nosotros::before {
     content: "";
@@ -703,9 +632,6 @@ h3 {
 #nosotros .text-muted {
     color: #94a3b8 !important;
 }
-
-
-/* Tarjetas informativas */
 
 .info-box {
     position: relative;
@@ -760,12 +686,11 @@ h3 {
     padding-top: 100px !important;
     padding-bottom: 110px !important;
 
-    background:
-        linear-gradient(
-            180deg,
-            #f8fafc,
-            #eef4ff
-        );
+    background: linear-gradient(
+        180deg,
+        #f8fafc,
+        #eef4ff
+    );
 }
 
 #contacto > * {
@@ -777,6 +702,7 @@ h3 {
 
 #contacto h2 {
     font-size: 2.5rem;
+
     font-weight: 800;
 }
 
@@ -830,12 +756,11 @@ h3 {
 .footer-tech {
     position: relative;
 
-    background:
-        linear-gradient(
-            90deg,
-            #020617,
-            #0f172a
-        );
+    background: linear-gradient(
+        90deg,
+        #020617,
+        #0f172a
+    );
 
     color: #94a3b8;
 
@@ -854,13 +779,12 @@ h3 {
     width: 100%;
     height: 4px;
 
-    background:
-        linear-gradient(
-            90deg,
-            #2563eb,
-            #7c3aed,
-            #22d3ee
-        );
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed,
+        #22d3ee
+    );
 }
 
 .nombre-footer {
@@ -898,6 +822,25 @@ h3 {
     }
 
 
+    .carousel-caption {
+        left: 6%;
+        right: 8%;
+
+        bottom: 15%;
+    }
+
+
+    .carousel-caption h1,
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+
     #productos,
     #destacados,
     #nosotros,
@@ -916,10 +859,64 @@ h3 {
 
 @media (max-width: 576px) {
 
+    /* ---------------------------------------------
+       CARRUSEL EN CELULAR
+    --------------------------------------------- */
+
     .carousel-img {
         height: 300px;
     }
 
+
+    .carousel-caption {
+        left: 24px;
+        right: 45px;
+
+        bottom: 14%;
+
+        max-width: none;
+
+        text-align: left;
+    }
+
+
+    .carousel-caption h1,
+    .carousel-caption h2 {
+        font-size: 1.75rem;
+
+        line-height: 1.15;
+
+        margin-bottom: 10px;
+    }
+
+
+    .carousel-caption p {
+        font-size: 0.95rem;
+
+        line-height: 1.4;
+
+        margin-bottom: 14px;
+    }
+
+
+    .carousel-caption .btn {
+        padding: 9px 16px;
+
+        font-size: 0.9rem;
+    }
+
+
+    /* Evita que las flechas tapen demasiado el texto */
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 8%;
+    }
+
+
+    /* ---------------------------------------------
+       TÍTULOS
+    --------------------------------------------- */
 
     #productos h2,
     #destacados h2,
@@ -929,10 +926,18 @@ h3 {
     }
 
 
+    /* ---------------------------------------------
+       FORMULARIO
+    --------------------------------------------- */
+
     .formulario-contacto {
         padding: 25px;
     }
 
+
+    /* ---------------------------------------------
+       PROMOCIÓN
+    --------------------------------------------- */
 
     .promo-notebook {
         padding: 26px 16px;
