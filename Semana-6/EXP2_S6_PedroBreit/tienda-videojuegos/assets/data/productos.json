@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Hollow Knight",
+        "precio": 12990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/hollow-knight.jpg",
+        "descripcion": "Explora un misterioso reino lleno de criaturas, desafíos y secretos en esta aventura de acción."
+    },
+    {
+        "id": 2,
+        "nombre": "Minecraft",
+        "precio": 24990,
+        "categoria": "Construcción",
+        "imagen": "assets/img/minecraft.jpg",
+        "descripcion": "Construye, explora y crea tus propias aventuras en un mundo formado completamente por bloques."
+    },
+    {
+        "id": 3,
+        "nombre": "Mario Kart World",
+        "precio": 59990,
+        "categoria": "Carreras",
+        "imagen": "assets/img/mario-kart.jpg",
+        "descripcion": "Compite en entretenidas carreras utilizando diferentes personajes, vehículos y objetos."
+    },
+    {
+        "id": 4,
+        "nombre": "Crash Bandicoot N. Sane Trilogy",
+        "precio": 19990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/crash-bandicoot-n-sane-trilogy.png",
+        "descripcion": "Revive las clásicas aventuras de Crash Bandicoot con niveles renovados, desafíos y plataformas."
+    },
+    {
+        "id": 5,
+        "nombre": "Doom",
+        "precio": 18990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/doom.png",
+        "descripcion": "Enfrenta hordas de enemigos en una experiencia de acción rápida, intensa y cargada de combates."
+    },
+    {
+        "id": 6,
+        "nombre": "Forza",
+        "precio": 39990,
+        "categoria": "Carreras",
+        "imagen": "assets/img/forza-2.png",
+        "descripcion": "Disfruta carreras de alta velocidad, vehículos detallados y distintos desafíos automovilísticos."
+    },
+    {
+        "id": 7,
+        "nombre": "Pokémon Pinball",
+        "precio": 9990,
+        "categoria": "Arcade",
+        "imagen": "assets/img/pokemon-pinball.png",
+        "descripcion": "Combina la mecánica clásica del pinball con el mundo Pokémon mientras acumulas puntos."
+    },
+    {
+        "id": 8,
+        "nombre": "Red Dead Redemption 2",
+        "precio": 34990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/red-dead-redemption-2.png",
+        "descripcion": "Explora un amplio mundo del viejo oeste con una historia centrada en aventuras y supervivencia."
+    },
+    {
+        "id": 9,
+        "nombre": "Resident Evil 3",
+        "precio": 29990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/resident-evil-3.png",
+        "descripcion": "Sobrevive a una ciudad infestada de criaturas mientras buscas una forma de escapar."
+    },
+    {
+        "id": 10,
+        "nombre": "Super Mario 64",
+        "precio": 14990,
+        "categoria": "Plataformas",
+        "imagen": "assets/img/super-mario-64.png",
+        "descripcion": "Explora mundos tridimensionales, reúne estrellas y supera distintos desafíos junto a Mario."
+    },
+    {
+        "id": 11,
+        "nombre": "Super Metroid",
+        "precio": 11990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/super-metroid.png",
+        "descripcion": "Investiga un planeta hostil, consigue nuevas habilidades y descubre secretos mientras avanzas."
+    },
+    {
+        "id": 12,
+        "nombre": "Wolfenstein 3D",
+        "precio": 8990,
+        "categoria": "Acción y aventura",
+        "imagen": "assets/img/wolfenstein-3d.png",
+        "descripcion": "Recorre laberintos, combate enemigos y avanza por distintos niveles en este clásico de acción."
+    }
+]
